@@ -9,17 +9,16 @@
 import UIKit
 
 class CustomOrderTableViewCell: UITableViewCell {
-    
     static let identifier = "CustomOrderTableViewCell"
-    
-    @IBOutlet weak var addDeliveryBoxButton: UIButton!
-    
-    @IBOutlet weak var onlineButton: UIButton!
-    @IBOutlet weak var codButton: UIButton!
-    @IBOutlet weak var walletButton: UIButton!
-    
+
+    @IBOutlet var addDeliveryBoxButton: UIButton!
+
+    @IBOutlet var onlineButton: UIButton!
+    @IBOutlet var codButton: UIButton!
+    @IBOutlet var walletButton: UIButton!
+
     var online = true {
-        didSet{
+        didSet {
             if online {
                 print("Online")
                 onlineButton.setImage(#imageLiteral(resourceName: "radio btn-check-ai"), for: .normal)
@@ -28,9 +27,9 @@ class CustomOrderTableViewCell: UITableViewCell {
             }
         }
     }
-    
+
     var cod = false {
-        didSet{
+        didSet {
             if cod {
                 print("COD")
                 onlineButton.setImage(#imageLiteral(resourceName: "un-check-circle-ai"), for: .normal)
@@ -39,9 +38,9 @@ class CustomOrderTableViewCell: UITableViewCell {
             }
         }
     }
-    
+
     var wallet = false {
-        didSet{
+        didSet {
             if wallet {
                 print("Wallet")
                 onlineButton.setImage(#imageLiteral(resourceName: "un-check-circle-ai"), for: .normal)
@@ -50,38 +49,30 @@ class CustomOrderTableViewCell: UITableViewCell {
             }
         }
     }
-    
-    
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        
-        
+
         onlineButton.addTarget(self, action: #selector(didTapOnlineButton), for: .touchUpInside)
         codButton.addTarget(self, action: #selector(didTapCodButton), for: .touchUpInside)
         walletButton.addTarget(self, action: #selector(didTapWalletButton), for: .touchUpInside)
-        
     }
-    
 
-    
     @objc func didTapOnlineButton() {
         online = true
         cod = false
         wallet = false
     }
-    
+
     @objc func didTapCodButton() {
         online = false
         cod = true
         wallet = false
     }
-    
+
     @objc func didTapWalletButton() {
         online = false
         cod = false
         wallet = true
     }
-    
 }

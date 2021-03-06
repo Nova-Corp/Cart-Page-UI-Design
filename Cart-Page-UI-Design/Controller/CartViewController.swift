@@ -27,30 +27,30 @@ class CartViewController: UIViewController {
 
         registerTableViewCell()
     }
-    
+
     fileprivate func registerTableViewCell() {
         //        MARK: - Register DeliveryTimeTableViewCell Nib
-        
+
         let deliveryTimeNib = UINib(nibName: DeliveryTimeTableViewCell.identifier, bundle: nil)
         cartTableView.register(deliveryTimeNib, forCellReuseIdentifier: DeliveryTimeTableViewCell.identifier)
-        
+
         //        MARK: - Register DeliveryTimeTableViewCell Nib
-        
+
         let personalInfoNib = UINib(nibName: PersonalInfoTableViewCell.identifier, bundle: nil)
         cartTableView.register(personalInfoNib, forCellReuseIdentifier: PersonalInfoTableViewCell.identifier)
-        
+
         //        MARK: - Register SubscriptionTableViewCell Nib
-        
+
         let subscriptionNib = UINib(nibName: SubscriptionTableViewCell.identifier, bundle: nil)
         cartTableView.register(subscriptionNib, forCellReuseIdentifier: SubscriptionTableViewCell.identifier)
-        
+
         //        MARK: - Register DeliveryBoxTableViewCell Nib
-        
+
         let deliveryBoxNib = UINib(nibName: DeliveryBoxTableViewCell.identifier, bundle: nil)
         cartTableView.register(deliveryBoxNib, forCellReuseIdentifier: DeliveryBoxTableViewCell.identifier)
-        
+
         //        MARK: - Register CustomOrderTableViewCell Nib
-        
+
         let customOrderNib = UINib(nibName: CustomOrderTableViewCell.identifier, bundle: nil)
         cartTableView.register(customOrderNib, forCellReuseIdentifier: CustomOrderTableViewCell.identifier)
     }
