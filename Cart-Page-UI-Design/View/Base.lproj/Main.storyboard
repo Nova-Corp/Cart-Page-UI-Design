@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8zE-39-J0z">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-Bold.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Checkout-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CartViewController" customModule="Cart_Page_UI_Design" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V2x-VF-4hM">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tux-VF-fgB">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="726"/>
+                                    </tableView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wXw-L9-on6">
+                                        <rect key="frame" x="0.0" y="726" width="414" height="48"/>
+                                        <color key="backgroundColor" red="0.39539536829999999" green="0.74087542299999998" blue="0.90983253720000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="48" id="gSE-dX-pqk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="17"/>
+                                        <state key="normal" title="Place Order">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="wXw-L9-on6" secondAttribute="trailing" id="PMX-Yf-b2H"/>
+                                    <constraint firstItem="wXw-L9-on6" firstAttribute="top" secondItem="Tux-VF-fgB" secondAttribute="bottom" id="Zyl-N3-CeX"/>
+                                    <constraint firstAttribute="trailing" secondItem="Tux-VF-fgB" secondAttribute="trailing" id="bsx-dP-xKb"/>
+                                    <constraint firstItem="Tux-VF-fgB" firstAttribute="leading" secondItem="V2x-VF-4hM" secondAttribute="leading" id="dp3-x1-2gj"/>
+                                    <constraint firstItem="Tux-VF-fgB" firstAttribute="top" secondItem="V2x-VF-4hM" secondAttribute="top" id="gJU-pz-aP6"/>
+                                    <constraint firstItem="wXw-L9-on6" firstAttribute="leading" secondItem="V2x-VF-4hM" secondAttribute="leading" id="tPv-jb-d5v"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.39539536829999999" green="0.74087542299999998" blue="0.90983253720000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="V2x-VF-4hM" secondAttribute="bottom" id="6RG-iH-gY6"/>
+                            <constraint firstItem="V2x-VF-4hM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="A1f-la-hft"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V2x-VF-4hM" secondAttribute="trailing" id="B8h-Iz-Awy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wXw-L9-on6" secondAttribute="bottom" id="Kl2-ke-NJa"/>
+                            <constraint firstItem="V2x-VF-4hM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ydS-Gv-r41"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Checkout" id="nlY-nY-Wlt"/>
+                    <connections>
+                        <outlet property="cartTableView" destination="Tux-VF-fgB" id="ZTr-zF-dHn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="126.5625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XVt-15-Jeo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8zE-39-J0z" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="M9O-ef-WcK">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mc6-OL-v7c"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TD9-A5-Xt4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+    </scenes>
+</document>

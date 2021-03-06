@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ubuntu-Bold.ttf">
+            <string>Ubuntu-Bold</string>
+        </array>
+        <array key="Ubuntu-Regular.ttf">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CustomOrderTableViewCell" customModule="Cart_Page_UI_Design" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="253"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="378" height="253"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJI-XZ-Xal">
+                        <rect key="frame" x="341" y="0.0" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="XEV-fc-fWn"/>
+                            <constraint firstAttribute="width" constant="25" id="wZL-lT-flf"/>
+                        </constraints>
+                        <state key="normal" image="add-circle blue-ai"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fbV-TS-Tuh" customClass="CardView" customModule="Cart_Page_UI_Design" customModuleProvider="target">
+                        <rect key="frame" x="12" y="37" width="354" height="92"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment Option" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZd-og-SaI">
+                                <rect key="frame" x="8" y="8" width="338" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Ubuntu-Bold" family="Ubuntu" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="O8G-ot-UQ5">
+                                <rect key="frame" x="8" y="39.5" width="338" height="40.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMS-Bb-2HP">
+                                        <rect key="frame" x="0.0" y="8" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="FIb-gF-zfX"/>
+                                            <constraint firstAttribute="width" constant="25" id="pAP-PT-qqk"/>
+                                        </constraints>
+                                        <state key="normal" image="radio btn-check-ai"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Online" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afp-9W-DKT">
+                                        <rect key="frame" x="37" y="10.5" width="64" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOo-DT-hGh">
+                                        <rect key="frame" x="113" y="8" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="BOm-C5-htu"/>
+                                            <constraint firstAttribute="width" constant="25" id="Iwb-ai-mH8"/>
+                                        </constraints>
+                                        <state key="normal" image="un-check-circle-ai"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUG-6z-0HP">
+                                        <rect key="frame" x="150" y="10.5" width="44.5" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Tq-GE-lPH">
+                                        <rect key="frame" x="206.5" y="8" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="5jF-Jx-z7p"/>
+                                            <constraint firstAttribute="width" constant="25" id="ixt-fw-Nf3"/>
+                                        </constraints>
+                                        <state key="normal" image="un-check-circle-ai"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wallet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuO-4r-xUz">
+                                        <rect key="frame" x="243.5" y="10.5" width="94.5" height="19.5"/>
+                                        <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="YZd-og-SaI" secondAttribute="trailing" constant="8" id="B0z-Ob-eha"/>
+                            <constraint firstItem="O8G-ot-UQ5" firstAttribute="top" secondItem="YZd-og-SaI" secondAttribute="bottom" constant="12" id="EJl-74-xqs"/>
+                            <constraint firstItem="YZd-og-SaI" firstAttribute="leading" secondItem="fbV-TS-Tuh" secondAttribute="leading" constant="8" id="Kdc-Ya-FVI"/>
+                            <constraint firstAttribute="bottom" secondItem="O8G-ot-UQ5" secondAttribute="bottom" constant="12" id="Pm3-C1-ltf"/>
+                            <constraint firstItem="O8G-ot-UQ5" firstAttribute="leading" secondItem="fbV-TS-Tuh" secondAttribute="leading" constant="8" id="cnE-L2-GK0"/>
+                            <constraint firstItem="YZd-og-SaI" firstAttribute="top" secondItem="fbV-TS-Tuh" secondAttribute="top" constant="8" id="g2F-Ff-T2K"/>
+                            <constraint firstAttribute="trailing" secondItem="O8G-ot-UQ5" secondAttribute="trailing" constant="8" id="viO-hQ-czA"/>
+                        </constraints>
+                    </view>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fa-3m-szd" customClass="CardView" customModule="Cart_Page_UI_Design" customModuleProvider="target">
+                        <rect key="frame" x="12" y="141" width="354" height="44"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" placeholder="Enter voucher code" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9fQ-nU-gED" customClass="PaddingTextField" customModule="Cart_Page_UI_Design" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="284" height="44"/>
+                                <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ned-GV-yVa">
+                                <rect key="frame" x="284" y="0.0" width="70" height="44"/>
+                                <color key="backgroundColor" red="0.39539536829999999" green="0.74087542299999998" blue="0.90983253720000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="gSO-Sf-i2Z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                                <state key="normal" title="Apply"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ned-GV-yVa" secondAttribute="trailing" id="5Ft-0y-f8N"/>
+                            <constraint firstAttribute="bottom" secondItem="ned-GV-yVa" secondAttribute="bottom" id="HQh-aj-bYq"/>
+                            <constraint firstItem="9fQ-nU-gED" firstAttribute="top" secondItem="9fa-3m-szd" secondAttribute="top" id="HeB-VF-suY"/>
+                            <constraint firstItem="ned-GV-yVa" firstAttribute="top" secondItem="9fa-3m-szd" secondAttribute="top" id="Opq-SK-3MF"/>
+                            <constraint firstAttribute="bottom" secondItem="9fQ-nU-gED" secondAttribute="bottom" id="T3v-P6-WPO"/>
+                            <constraint firstItem="9fQ-nU-gED" firstAttribute="leading" secondItem="9fa-3m-szd" secondAttribute="leading" id="VOJ-LT-Bc4"/>
+                            <constraint firstAttribute="height" constant="44" id="rBn-WH-3CC"/>
+                            <constraint firstItem="ned-GV-yVa" firstAttribute="leading" secondItem="9fQ-nU-gED" secondAttribute="trailing" id="t0O-X2-ked"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OY8-JV-vke" customClass="CardView" customModule="Cart_Page_UI_Design" customModuleProvider="target">
+                        <rect key="frame" x="12" y="197" width="354" height="44"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Any suggestions?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ndr-Yy-9CS" customClass="PaddingTextField" customModule="Cart_Page_UI_Design" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="354" height="44"/>
+                                <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ndr-Yy-9CS" secondAttribute="trailing" id="1e0-da-cFe"/>
+                            <constraint firstAttribute="height" constant="44" id="AnQ-Gd-3Ud"/>
+                            <constraint firstItem="Ndr-Yy-9CS" firstAttribute="leading" secondItem="OY8-JV-vke" secondAttribute="leading" id="VMm-7m-O1H"/>
+                            <constraint firstItem="Ndr-Yy-9CS" firstAttribute="top" secondItem="OY8-JV-vke" secondAttribute="top" id="Z9C-jD-KpN"/>
+                            <constraint firstAttribute="bottom" secondItem="Ndr-Yy-9CS" secondAttribute="bottom" id="dci-it-ik3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="fbV-TS-Tuh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="8oa-MP-ux8"/>
+                    <constraint firstItem="9fa-3m-szd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="OTB-uk-7ym"/>
+                    <constraint firstItem="OY8-JV-vke" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="QlJ-tV-Zm5"/>
+                    <constraint firstItem="OY8-JV-vke" firstAttribute="top" secondItem="9fa-3m-szd" secondAttribute="bottom" constant="12" id="Y9k-22-60v"/>
+                    <constraint firstItem="fbV-TS-Tuh" firstAttribute="top" secondItem="aJI-XZ-Xal" secondAttribute="bottom" constant="12" id="ZAu-QU-1M9"/>
+                    <constraint firstAttribute="trailing" secondItem="OY8-JV-vke" secondAttribute="trailing" constant="12" id="dx9-cF-Eze"/>
+                    <constraint firstItem="aJI-XZ-Xal" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="fgX-RV-Tf4"/>
+                    <constraint firstAttribute="trailing" secondItem="fbV-TS-Tuh" secondAttribute="trailing" constant="12" id="g3c-0x-gZk"/>
+                    <constraint firstItem="9fa-3m-szd" firstAttribute="top" secondItem="fbV-TS-Tuh" secondAttribute="bottom" constant="12" id="iDK-ji-GuE"/>
+                    <constraint firstAttribute="trailing" secondItem="9fa-3m-szd" secondAttribute="trailing" constant="12" id="oOn-KL-kLk"/>
+                    <constraint firstAttribute="bottom" secondItem="OY8-JV-vke" secondAttribute="bottom" constant="12" id="vKo-u8-snS"/>
+                    <constraint firstAttribute="trailing" secondItem="aJI-XZ-Xal" secondAttribute="trailing" constant="12" id="xPC-zj-EYH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addDeliveryBoxButton" destination="aJI-XZ-Xal" id="sZc-XJ-xIW"/>
+                <outlet property="codButton" destination="DOo-DT-hGh" id="one-8u-Fjm"/>
+                <outlet property="onlineButton" destination="iMS-Bb-2HP" id="aOh-Dp-TAP"/>
+                <outlet property="walletButton" destination="6Tq-GE-lPH" id="YUv-fa-Myx"/>
+            </connections>
+            <point key="canvasLocation" x="173.91304347826087" y="208.59375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="add-circle blue-ai" width="25" height="25"/>
+        <image name="radio btn-check-ai" width="25" height="25"/>
+        <image name="un-check-circle-ai" width="25" height="25"/>
+    </resources>
+</document>

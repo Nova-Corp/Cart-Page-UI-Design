@@ -3,27 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81B3AB4C9E666248CD3CDBD1 /* Pods_Cart_Page_UI_Design.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03F0512924D55DADF1E10 /* Pods_Cart_Page_UI_Design.framework */; };
+		84A6072625F30B6300B28D8E /* DayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6072525F30B6300B28D8E /* DayModel.swift */; };
+		84A6072A25F312F800B28D8E /* DeliveryBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6072825F312F800B28D8E /* DeliveryBoxTableViewCell.swift */; };
+		84A6072B25F312F800B28D8E /* DeliveryBoxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6072925F312F800B28D8E /* DeliveryBoxTableViewCell.xib */; };
+		84A6072F25F32E5100B28D8E /* CustomOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6072D25F32E5100B28D8E /* CustomOrderTableViewCell.swift */; };
+		84A6073025F32E5100B28D8E /* CustomOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6072E25F32E5100B28D8E /* CustomOrderTableViewCell.xib */; };
+		84A6073225F33FC000B28D8E /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6073125F33FC000B28D8E /* PaddingTextField.swift */; };
+		84A6073325F34BFA00B28D8E /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CC925F26B2C0094F840 /* Ubuntu-Bold.ttf */; };
+		84A6073425F34BFA00B28D8E /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CC825F26B2C0094F840 /* Ubuntu-BoldItalic.ttf */; };
+		84A6073525F34BFA00B28D8E /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CC625F26B2C0094F840 /* Ubuntu-Light.ttf */; };
+		84A6073625F34BFB00B28D8E /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CCA25F26B2C0094F840 /* Ubuntu-Medium.ttf */; };
+		84A6073725F34BFB00B28D8E /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CC725F26B2C0094F840 /* Ubuntu-Regular.ttf */; };
+		84AE8CD225F276800094F840 /* DeliveryTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE8CD025F276800094F840 /* DeliveryTimeTableViewCell.swift */; };
+		84AE8CD325F276800094F840 /* DeliveryTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CD125F276800094F840 /* DeliveryTimeTableViewCell.xib */; };
+		84AE8CD625F279C50094F840 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE8CD525F279C50094F840 /* CardView.swift */; };
+		84AE8CD925F27EDA0094F840 /* PersonalInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE8CD725F27EDA0094F840 /* PersonalInfoTableViewCell.swift */; };
+		84AE8CDA25F27EDA0094F840 /* PersonalInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CD825F27EDA0094F840 /* PersonalInfoTableViewCell.xib */; };
+		84AE8CDE25F281E70094F840 /* SubscriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE8CDC25F281E70094F840 /* SubscriptionTableViewCell.swift */; };
+		84AE8CDF25F281E70094F840 /* SubscriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CDD25F281E70094F840 /* SubscriptionTableViewCell.xib */; };
+		84AE8CE225F28D7C0094F840 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE8CE125F28D7C0094F840 /* UIView+Extension.swift */; };
 		84DB6F4925F26A3E006CFDF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB6F4825F26A3E006CFDF1 /* AppDelegate.swift */; };
 		84DB6F4B25F26A3E006CFDF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB6F4A25F26A3E006CFDF1 /* SceneDelegate.swift */; };
-		84DB6F4D25F26A3E006CFDF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB6F4C25F26A3E006CFDF1 /* ViewController.swift */; };
+		84DB6F4D25F26A3E006CFDF1 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB6F4C25F26A3E006CFDF1 /* CartViewController.swift */; };
 		84DB6F5025F26A3E006CFDF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DB6F4E25F26A3E006CFDF1 /* Main.storyboard */; };
 		84DB6F5225F26A42006CFDF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DB6F5125F26A42006CFDF1 /* Assets.xcassets */; };
 		84DB6F5525F26A42006CFDF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DB6F5325F26A42006CFDF1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B5F2AD165F2D96F1CAF1771 /* Pods-Cart-Page-UI-Design.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart-Page-UI-Design.debug.xcconfig"; path = "Target Support Files/Pods-Cart-Page-UI-Design/Pods-Cart-Page-UI-Design.debug.xcconfig"; sourceTree = "<group>"; };
+		6881CEDF194FE378AD0E237B /* Pods-Cart-Page-UI-Design.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart-Page-UI-Design.release.xcconfig"; path = "Target Support Files/Pods-Cart-Page-UI-Design/Pods-Cart-Page-UI-Design.release.xcconfig"; sourceTree = "<group>"; };
+		84A6072525F30B6300B28D8E /* DayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayModel.swift; sourceTree = "<group>"; };
+		84A6072825F312F800B28D8E /* DeliveryBoxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryBoxTableViewCell.swift; sourceTree = "<group>"; };
+		84A6072925F312F800B28D8E /* DeliveryBoxTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeliveryBoxTableViewCell.xib; sourceTree = "<group>"; };
+		84A6072D25F32E5100B28D8E /* CustomOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOrderTableViewCell.swift; sourceTree = "<group>"; };
+		84A6072E25F32E5100B28D8E /* CustomOrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomOrderTableViewCell.xib; sourceTree = "<group>"; };
+		84A6073125F33FC000B28D8E /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
+		84AE8CC625F26B2C0094F840 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		84AE8CC725F26B2C0094F840 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		84AE8CC825F26B2C0094F840 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		84AE8CC925F26B2C0094F840 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		84AE8CCA25F26B2C0094F840 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		84AE8CD025F276800094F840 /* DeliveryTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryTimeTableViewCell.swift; sourceTree = "<group>"; };
+		84AE8CD125F276800094F840 /* DeliveryTimeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeliveryTimeTableViewCell.xib; sourceTree = "<group>"; };
+		84AE8CD525F279C50094F840 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		84AE8CD725F27EDA0094F840 /* PersonalInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoTableViewCell.swift; sourceTree = "<group>"; };
+		84AE8CD825F27EDA0094F840 /* PersonalInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalInfoTableViewCell.xib; sourceTree = "<group>"; };
+		84AE8CDC25F281E70094F840 /* SubscriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTableViewCell.swift; sourceTree = "<group>"; };
+		84AE8CDD25F281E70094F840 /* SubscriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscriptionTableViewCell.xib; sourceTree = "<group>"; };
+		84AE8CE125F28D7C0094F840 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		84DB6F4525F26A3E006CFDF1 /* Cart-Page-UI-Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cart-Page-UI-Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DB6F4825F26A3E006CFDF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84DB6F4A25F26A3E006CFDF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84DB6F4C25F26A3E006CFDF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84DB6F4C25F26A3E006CFDF1 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		84DB6F4F25F26A3E006CFDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84DB6F5125F26A42006CFDF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DB6F5425F26A42006CFDF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84DB6F5625F26A42006CFDF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A03F0512924D55DADF1E10 /* Pods_Cart_Page_UI_Design.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cart_Page_UI_Design.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +73,124 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B3AB4C9E666248CD3CDBD1 /* Pods_Cart_Page_UI_Design.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04807CDF042053C5C89395F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B5F2AD165F2D96F1CAF1771 /* Pods-Cart-Page-UI-Design.debug.xcconfig */,
+				6881CEDF194FE378AD0E237B /* Pods-Cart-Page-UI-Design.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84A6072425F30B4400B28D8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84A6072525F30B6300B28D8E /* DayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84A6072725F312C900B28D8E /* DeliveryBoxTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84A6072825F312F800B28D8E /* DeliveryBoxTableViewCell.swift */,
+				84A6072925F312F800B28D8E /* DeliveryBoxTableViewCell.xib */,
+			);
+			path = DeliveryBoxTableViewCell;
+			sourceTree = "<group>";
+		};
+		84A6072C25F32E1C00B28D8E /* CustomOrderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84A6072D25F32E5100B28D8E /* CustomOrderTableViewCell.swift */,
+				84A6072E25F32E5100B28D8E /* CustomOrderTableViewCell.xib */,
+			);
+			path = CustomOrderTableViewCell;
+			sourceTree = "<group>";
+		};
+		84AE8CC325F26AC70094F840 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				84AE8CCB25F26FF40094F840 /* Extensions */,
+				84AE8CC525F26AEC0094F840 /* Font */,
+				84DB6F5125F26A42006CFDF1 /* Assets.xcassets */,
+				84DB6F5325F26A42006CFDF1 /* LaunchScreen.storyboard */,
+				84DB6F5625F26A42006CFDF1 /* Info.plist */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		84AE8CC425F26AD60094F840 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84DB6F4C25F26A3E006CFDF1 /* CartViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84AE8CC525F26AEC0094F840 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				84AE8CC925F26B2C0094F840 /* Ubuntu-Bold.ttf */,
+				84AE8CC825F26B2C0094F840 /* Ubuntu-BoldItalic.ttf */,
+				84AE8CC625F26B2C0094F840 /* Ubuntu-Light.ttf */,
+				84AE8CCA25F26B2C0094F840 /* Ubuntu-Medium.ttf */,
+				84AE8CC725F26B2C0094F840 /* Ubuntu-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		84AE8CCB25F26FF40094F840 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84AE8CD525F279C50094F840 /* CardView.swift */,
+				84AE8CE125F28D7C0094F840 /* UIView+Extension.swift */,
+				84A6073125F33FC000B28D8E /* PaddingTextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84AE8CD425F276B60094F840 /* DeliveryTimeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84AE8CD025F276800094F840 /* DeliveryTimeTableViewCell.swift */,
+				84AE8CD125F276800094F840 /* DeliveryTimeTableViewCell.xib */,
+			);
+			path = DeliveryTimeTableViewCell;
+			sourceTree = "<group>";
+		};
+		84AE8CDB25F27EE80094F840 /* PersonalInfoTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84AE8CD725F27EDA0094F840 /* PersonalInfoTableViewCell.swift */,
+				84AE8CD825F27EDA0094F840 /* PersonalInfoTableViewCell.xib */,
+			);
+			path = PersonalInfoTableViewCell;
+			sourceTree = "<group>";
+		};
+		84AE8CE025F281F10094F840 /* SubscriptionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84AE8CDC25F281E70094F840 /* SubscriptionTableViewCell.swift */,
+				84AE8CDD25F281E70094F840 /* SubscriptionTableViewCell.xib */,
+			);
+			path = SubscriptionTableViewCell;
+			sourceTree = "<group>";
+		};
 		84DB6F3C25F26A3E006CFDF1 = {
 			isa = PBXGroup;
 			children = (
 				84DB6F4725F26A3E006CFDF1 /* Cart-Page-UI-Design */,
 				84DB6F4625F26A3E006CFDF1 /* Products */,
+				04807CDF042053C5C89395F5 /* Pods */,
+				E7007596C71427915EFE1DC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +205,43 @@
 		84DB6F4725F26A3E006CFDF1 /* Cart-Page-UI-Design */ = {
 			isa = PBXGroup;
 			children = (
-				84DB6F4825F26A3E006CFDF1 /* AppDelegate.swift */,
-				84DB6F4A25F26A3E006CFDF1 /* SceneDelegate.swift */,
-				84DB6F4C25F26A3E006CFDF1 /* ViewController.swift */,
-				84DB6F4E25F26A3E006CFDF1 /* Main.storyboard */,
-				84DB6F5125F26A42006CFDF1 /* Assets.xcassets */,
-				84DB6F5325F26A42006CFDF1 /* LaunchScreen.storyboard */,
-				84DB6F5625F26A42006CFDF1 /* Info.plist */,
+				84A6072425F30B4400B28D8E /* Model */,
+				84DB6F5C25F26A4E006CFDF1 /* Delegates */,
+				84AE8CC425F26AD60094F840 /* Controller */,
+				84DB6F5D25F26A69006CFDF1 /* View */,
+				84AE8CC325F26AC70094F840 /* Global */,
 			);
 			path = "Cart-Page-UI-Design";
+			sourceTree = "<group>";
+		};
+		84DB6F5C25F26A4E006CFDF1 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				84DB6F4825F26A3E006CFDF1 /* AppDelegate.swift */,
+				84DB6F4A25F26A3E006CFDF1 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		84DB6F5D25F26A69006CFDF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84DB6F4E25F26A3E006CFDF1 /* Main.storyboard */,
+				84A6072C25F32E1C00B28D8E /* CustomOrderTableViewCell */,
+				84A6072725F312C900B28D8E /* DeliveryBoxTableViewCell */,
+				84AE8CD425F276B60094F840 /* DeliveryTimeTableViewCell */,
+				84AE8CDB25F27EE80094F840 /* PersonalInfoTableViewCell */,
+				84AE8CE025F281F10094F840 /* SubscriptionTableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7007596C71427915EFE1DC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94A03F0512924D55DADF1E10 /* Pods_Cart_Page_UI_Design.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84DB6F5925F26A42006CFDF1 /* Build configuration list for PBXNativeTarget "Cart-Page-UI-Design" */;
 			buildPhases = (
+				579B4FF95E4AB0657A91D55E /* [CP] Check Pods Manifest.lock */,
 				84DB6F4125F26A3E006CFDF1 /* Sources */,
 				84DB6F4225F26A3E006CFDF1 /* Frameworks */,
 				84DB6F4325F26A3E006CFDF1 /* Resources */,
+				E4A2FAF8C725C06AF81E50F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +304,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A6073325F34BFA00B28D8E /* Ubuntu-Bold.ttf in Resources */,
+				84A6073425F34BFA00B28D8E /* Ubuntu-BoldItalic.ttf in Resources */,
+				84A6073525F34BFA00B28D8E /* Ubuntu-Light.ttf in Resources */,
+				84A6073625F34BFB00B28D8E /* Ubuntu-Medium.ttf in Resources */,
+				84A6073725F34BFB00B28D8E /* Ubuntu-Regular.ttf in Resources */,
+				84AE8CD325F276800094F840 /* DeliveryTimeTableViewCell.xib in Resources */,
 				84DB6F5525F26A42006CFDF1 /* LaunchScreen.storyboard in Resources */,
+				84AE8CDF25F281E70094F840 /* SubscriptionTableViewCell.xib in Resources */,
 				84DB6F5225F26A42006CFDF1 /* Assets.xcassets in Resources */,
+				84A6072B25F312F800B28D8E /* DeliveryBoxTableViewCell.xib in Resources */,
 				84DB6F5025F26A3E006CFDF1 /* Main.storyboard in Resources */,
+				84AE8CDA25F27EDA0094F840 /* PersonalInfoTableViewCell.xib in Resources */,
+				84A6073025F32E5100B28D8E /* CustomOrderTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		579B4FF95E4AB0657A91D55E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cart-Page-UI-Design-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A2FAF8C725C06AF81E50F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cart-Page-UI-Design/Pods-Cart-Page-UI-Design-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cart-Page-UI-Design/Pods-Cart-Page-UI-Design-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cart-Page-UI-Design/Pods-Cart-Page-UI-Design-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84DB6F4125F26A3E006CFDF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DB6F4D25F26A3E006CFDF1 /* ViewController.swift in Sources */,
+				84AE8CD225F276800094F840 /* DeliveryTimeTableViewCell.swift in Sources */,
+				84A6072F25F32E5100B28D8E /* CustomOrderTableViewCell.swift in Sources */,
+				84A6072A25F312F800B28D8E /* DeliveryBoxTableViewCell.swift in Sources */,
+				84DB6F4D25F26A3E006CFDF1 /* CartViewController.swift in Sources */,
+				84AE8CE225F28D7C0094F840 /* UIView+Extension.swift in Sources */,
+				84A6072625F30B6300B28D8E /* DayModel.swift in Sources */,
 				84DB6F4925F26A3E006CFDF1 /* AppDelegate.swift in Sources */,
+				84AE8CDE25F281E70094F840 /* SubscriptionTableViewCell.swift in Sources */,
+				84AE8CD925F27EDA0094F840 /* PersonalInfoTableViewCell.swift in Sources */,
+				84A6073225F33FC000B28D8E /* PaddingTextField.swift in Sources */,
+				84AE8CD625F279C50094F840 /* CardView.swift in Sources */,
 				84DB6F4B25F26A3E006CFDF1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +522,12 @@
 		};
 		84DB6F5A25F26A42006CFDF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5F2AD165F2D96F1CAF1771 /* Pods-Cart-Page-UI-Design.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H922B55M85;
-				INFOPLIST_FILE = "Cart-Page-UI-Design/Info.plist";
+				INFOPLIST_FILE = "Cart-Page-UI-Design/global/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +541,12 @@
 		};
 		84DB6F5B25F26A42006CFDF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6881CEDF194FE378AD0E237B /* Pods-Cart-Page-UI-Design.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H922B55M85;
-				INFOPLIST_FILE = "Cart-Page-UI-Design/Info.plist";
+				INFOPLIST_FILE = "Cart-Page-UI-Design/global/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
