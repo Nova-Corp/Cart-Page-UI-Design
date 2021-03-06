@@ -22,7 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         UINavigationBar.appearance().backgroundColor = #colorLiteral(red: 0.2331487536, green: 0.7512229085, blue: 0.9278072715, alpha: 1)
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
         
-        UINavigationBar.appearance().barStyle = .blackTranslucent
+        UINavigationBar.appearance().barStyle = UIBarStyle.black
         
     }
 

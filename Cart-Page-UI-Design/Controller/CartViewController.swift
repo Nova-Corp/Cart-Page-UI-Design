@@ -34,7 +34,7 @@ class CartViewController: UIViewController {
         let deliveryTimeNib = UINib(nibName: DeliveryTimeTableViewCell.identifier, bundle: nil)
         cartTableView.register(deliveryTimeNib, forCellReuseIdentifier: DeliveryTimeTableViewCell.identifier)
 
-        //        MARK: - Register DeliveryTimeTableViewCell Nib
+        //        MARK: - Register PersonalInfoTableViewCell Nib
 
         let personalInfoNib = UINib(nibName: PersonalInfoTableViewCell.identifier, bundle: nil)
         cartTableView.register(personalInfoNib, forCellReuseIdentifier: PersonalInfoTableViewCell.identifier)
