@@ -40,8 +40,7 @@ class CartViewController: UIViewController {
             deliveryProducts[index] = DeliveryBox(firstProductCount: firstProductCount, secondProductCount: secondProductCount)
         }
 
-        print(deliveryProducts.count)
-        print(deliveryProducts.last?.secondProductCount ?? 0)
+        dump(deliveryProducts)
     }
 
     fileprivate func registerTableViewCell() {
