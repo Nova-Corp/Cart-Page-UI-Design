@@ -8,13 +8,21 @@
 
 import UIKit
 
-class DeliveryBoxTableViewCell: UITableViewCell {
+class DeliveryBoxTableViewCell: UITableViewCell, UITextFieldDelegate {
+    
+    @IBOutlet weak var firstProductCount: UITextField!
+    @IBOutlet weak var secondProductCount: UITextField!
     
     static let identifier = "DeliveryBoxTableViewCell"
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+    
+    }
+    
+    func configureDeliveryProductCell(_ product: DeliveryBox) {
+        firstProductCount.text = "\(product.firstProductCount ?? 0)"
+        secondProductCount.text = "\(product.secondProductCount ?? 0)"
     }
     
 }

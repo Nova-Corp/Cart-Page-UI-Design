@@ -19,6 +19,7 @@
 		84A6073525F34BFA00B28D8E /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CC625F26B2C0094F840 /* Ubuntu-Light.ttf */; };
 		84A6073625F34BFB00B28D8E /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CCA25F26B2C0094F840 /* Ubuntu-Medium.ttf */; };
 		84A6073725F34BFB00B28D8E /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CC725F26B2C0094F840 /* Ubuntu-Regular.ttf */; };
+		84A6073925F38BBB00B28D8E /* DeliveryBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6073825F38BBB00B28D8E /* DeliveryBox.swift */; };
 		84AE8CD225F276800094F840 /* DeliveryTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE8CD025F276800094F840 /* DeliveryTimeTableViewCell.swift */; };
 		84AE8CD325F276800094F840 /* DeliveryTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AE8CD125F276800094F840 /* DeliveryTimeTableViewCell.xib */; };
 		84AE8CD625F279C50094F840 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE8CD525F279C50094F840 /* CardView.swift */; };
@@ -44,6 +45,7 @@
 		84A6072D25F32E5100B28D8E /* CustomOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOrderTableViewCell.swift; sourceTree = "<group>"; };
 		84A6072E25F32E5100B28D8E /* CustomOrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomOrderTableViewCell.xib; sourceTree = "<group>"; };
 		84A6073125F33FC000B28D8E /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
+		84A6073825F38BBB00B28D8E /* DeliveryBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryBox.swift; sourceTree = "<group>"; };
 		84AE8CC625F26B2C0094F840 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
 		84AE8CC725F26B2C0094F840 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
 		84AE8CC825F26B2C0094F840 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				84A6072525F30B6300B28D8E /* DayModel.swift */,
+				84A6073825F38BBB00B28D8E /* DeliveryBox.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,8 +208,8 @@
 		84DB6F4725F26A3E006CFDF1 /* Cart-Page-UI-Design */ = {
 			isa = PBXGroup;
 			children = (
-				84A6072425F30B4400B28D8E /* Model */,
 				84DB6F5C25F26A4E006CFDF1 /* Delegates */,
+				84A6072425F30B4400B28D8E /* Model */,
 				84AE8CC425F26AD60094F840 /* Controller */,
 				84DB6F5D25F26A69006CFDF1 /* View */,
 				84AE8CC325F26AC70094F840 /* Global */,
@@ -381,6 +384,7 @@
 				84A6073225F33FC000B28D8E /* PaddingTextField.swift in Sources */,
 				84AE8CD625F279C50094F840 /* CardView.swift in Sources */,
 				84DB6F4B25F26A3E006CFDF1 /* SceneDelegate.swift in Sources */,
+				84A6073925F38BBB00B28D8E /* DeliveryBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sr.Cart-Page-UI-Design";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -554,7 +558,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sr.Cart-Page-UI-Design";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
